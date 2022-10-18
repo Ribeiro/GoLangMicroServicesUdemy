@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "front-end"
+		},
+		{
+			"path": "broker-service"
 		}
 	],
 	"settings": {}
