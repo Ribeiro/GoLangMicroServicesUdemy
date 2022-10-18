@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "broker-service"
+		},
+		{
+			"path": "project"
 		}
 	],
 	"settings": {}
