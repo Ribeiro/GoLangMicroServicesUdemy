@@ -60,7 +60,7 @@ func (app *Config) HandleSubmission(w http.ResponseWriter, r *http.Request) {
 		app.sendMail(w, requestPayload.Mail)
 
 	default:
-		app.errorJSON(w, errors.New("Unknown Action"), http.StatusBadRequest)
+		app.errorJSON(w, errors.New("unknown action"), http.StatusBadRequest)
 	}
 
 }
